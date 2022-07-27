@@ -1,0 +1,38 @@
+name: min_tube_simple
+
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_sign_in: ^5.2.4
+  googleapis: ^8.0.0
+  extension_google_sign_in_as_googleapis_auth: ^2.0.4
+  youtube_player_flutter: ^8.1.0
+  font_awesome_flutter: ^9.2.0
+  url_launcher: ^6.0.20
+  shared_preferences: ^2.0.13
+  flutter_launcher_icons: ^0.9.3
+  html_unescape: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/mintube_icon.png"
